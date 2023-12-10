@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* background color */
+    color: #3C4142 /* text color */
+    ;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFDCE8;/* sidebar background color */
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3C4142;/*sidebar text color */
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #FEADC8;
+}
+
+/* Content Styles */
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+/* Forms and Buttons */
+input[type="text"], input[type="password"], select {
+    
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    width: 50%;
+    padding: auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Sections */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #333;/*login text color*/
+    text-align: left;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    font-style:bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .content {
+        margin-left: 0;
+    }
+}
+
+/* Additional Styles for Login Page */
+.login-page {
+    background-color: #FFDCE8; /* Dark background for the login page */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.login-container {
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #DCFFF3; /* Light background for the login box */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.body{
+    background-color: #DCFFF3;/*main background color*/
+}
+
+.purchase-history-container {
+    width: 100%;
+    text-align: center;
+}
+
+#purchaseHistoryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px; /* Adjust the margin as needed */
+}
+
+#purchaseHistoryTable th, #purchaseHistoryTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#purchaseHistoryTable th {
+    background-color: #f2f2f2;
+}
+
+.chart-container canvas {
+    width: 400px; /* Adjust width as necessary */
+    height: 400px; /* Adjust height as necessary */
+}
+
+.chart-container {
+    width: 50%; /* Adjust this as needed */
+    margin: auto; /* This will center the container */
+    height: 500px; /* Adjust the height as needed */
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust the height as needed */
+
+}
+
+
+h1{
+    color: #333;/login text color/
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-style:bold;
+}

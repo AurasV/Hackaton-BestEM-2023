@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #overviewSection {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        #productDescriptionList {
+            max-height: 1000px;
+            overflow-y: auto;
+            width: 70%;
+            padding-right: 20px;
+        }
+
+        #chartsSection {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #searchInput {
+            margin-bottom: 10px;
+        }
+
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <a href="index">Home</a>
+    <a href="employee">Employee Dashboard</a>
+    <a href="customer">Customer Dashboard</a>
+</div>
+
+<div class="content">
+    <h2>Employee Dashboard</h2>
+
+    <div class="section" id="toBuySection">
+        <h3>ToBUY</h3>
+        <p id="toBuyRecommendation"></p>
+    </div>
+
+    <div class="section" id="overviewSection">
+        <h3>Overview</h3>
+        <div id="productListSection">
+            <p></p><p></p>
+            <input type="text" id="searchInput" oninput="filterList()" placeholder="Search product...">
+            <h4>Product Descriptions</h4>
+            <ul id="productDescriptionList"></ul>
+        </div>
+
+        <div id="chartsSection">
+            <h4>Sales Chart</h4>
+            <canvas id="salesChart" width="400" height="300"></canvas>
+
+            <h4>Revenue Chart</h4>
+            <canvas id="revenueChart" width="400" height="300"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Log categories and data to the browser console
+    console.log("Categories:", {{ categories | tojson | safe }});
+    console.log("Data:", {{ data | tojson | safe }});
+    console.log("Monthly Sales:", {{ data_sales | tojson | safe }});
+    console.log("Monthly Revenue:", {{ data_revenue | tojson | safe }});
+
+    // Extract product descriptions and attach click event listener
+    var productList = document.getElementById("productList");
+    var productDescriptionList = document.getElementById("productDescriptionList");
+    var salesChart = null;
+    var revenueChart = null;
+
+    {{ data_sales | tojson | safe }}.forEach(product => {
+        var description = product.Description;
+        var listItem = document.createElement("li");
+        listItem.textContent = description;
+        listItem.onclick = function () {
+            // Destroy existing charts
+            if (salesChart) {
+                salesChart.destroy();
+            }
+            if (revenueChart) {
+                revenueChart.destroy();
+            }
+
+            // Handle the click event, e.g., load corresponding data for the clicked product
+            loadChartData(product);
+        };
+        productDescriptionList.appendChild(listItem);
+    });
+
+    // Function to load chart data based on the selected product
+            function getBorderColorArray(dataDifference) {
+    var borderColorArray = [];
+    dataDifference.forEach(diff => {
+        // Add red border if the difference is greater than 100
+        borderColorArray.push(diff > 100 ? "rgba(255, 0, 0, 1)" : "rgba(75, 192, 192, 1)");
+    });
+    return borderColorArray;
+}
+
+// Function to load chart data based on the selected product
+function loadChartData(product) {
+    // Sample chart data for demonstration
+    var months = Object.keys(product).filter(key => key !== "Product_ID" && key !== "Description");
+    var salesData = months.map(month => product[month]);
+
+    // Calculate the difference between consecutive months
+    var salesDataDifference = salesData.map((value, index, array) => index > 0 ? value - array[index - 1] : 0);
+
+    // Chart.js for sales
+    var salesChartCanvas = document.getElementById("salesChart");
+    var salesChartContext = salesChartCanvas.getContext("2d");
+
+    salesChart = new Chart(salesChartContext, {
+        type: "bar",
+        data: {
+            labels: months,
+            datasets: [{
+                label: "Sales",
+                data: salesData,
+                backgroundColor: "rgba(75, 192, 192, 0.2)",
+                borderColor: getBorderColorArray(salesDataDifference), // Get border colors based on differences
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+        // Sample chart data for revenue (replace with actual data)
+        var revenueData = months.map(month => product[month] * 10);
+
+        // Chart.js for revenue
+        var revenueChartCanvas = document.getElementById("revenueChart");
+        var revenueChartContext = revenueChartCanvas.getContext("2d");
+
+        revenueChart = new Chart(revenueChartContext, {
+            type: "bar",
+            data: {
+                labels: months,
+                datasets: [{
+                    label: "Revenue",
+                    data: revenueData,
+                    backgroundColor: "rgba(255, 99, 132, 0.2)",
+                    borderColor: "rgba(255, 99, 132, 1)",
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+
+    // Function to filter the list based on user input
+    function filterList() {
+        var input, filter, ul, li, i, txtValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("productDescriptionList");
+        li = ul.getElementsByTagName("li");
+
+        for (i = 0; i < li.length; i++) {
+            txtValue = li[i].textContent || li[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+
+    // Fetch recommendation for the highest selling product from ChatGPT API
+    fetchRecommendation('/get_highest_selling_product_recommendation')
+        .then(data => {
+            // Display the recommendation in the ToBuy section
+            displayToBuyRecommendation(data);
+        })
+        .catch(error => console.error("Error fetching recommendation:", error));
+
+    // Function to fetch recommendation from ChatGPT API
+    function fetchRecommendation(endpoint) {
+        var apiKey = "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"; // Replace with your OpenAI API key
+        var highestSellingProduct = getHighestSellingProduct();
+        var currentDate = new Date();
+
+        // Get the month name based on the current date
+        var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var currentMonth = monthNames[currentDate.getMonth()];
+
+        // Update the prompt with the month declaration
+        var prompt = `Generează o recomandare pentru Manager sa stockeze depozitul cu cel mai vândut produs pe luna aceasta, ${currentMonth} numit "${highestSellingProduct}", fă-l să sune uman și să nu fie listă.`;
+
+        return fetch("https://api.openai.com/v1/completions", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: "text-davinci-003",
+                prompt: prompt,
+                max_tokens: 1000
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            return response.json();
+        });
+    }
+
+    // Function to get the name of the highest selling product
+    function getHighestSellingProduct() {
+        var highestSellingProduct = "";
+        var maxSales = 0;
+
+        {{ data_sales | tojson | safe }}.forEach(product => {
+            var totalSales = Object.values(product).reduce((a, b) => typeof a === 'number' ? a + b : 0);
+            if (totalSales > maxSales) {
+                maxSales = totalSales;
+                highestSellingProduct = product.Description;
+            }
+        });
+
+        return highestSellingProduct;
+    }
+
+    // Function to display ToBuy recommendation
+    function displayToBuyRecommendation(recommendationData) {
+        var toBuyRecommendationElement = document.getElementById("toBuyRecommendation");
+        toBuyRecommendationElement.textContent =  recommendationData.choices[0].text;
+    }
+</script>
+
+</body>
+</html>

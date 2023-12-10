@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script>
+        // JavaScript to handle dropdown change and dynamic content loading
+        function loadCustomerData() {
+            // Implement the function to load customer data from JSON
+            // and update the page content
+        }
+    </script>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="index">Home</a>
+      <a href="employee">Employee Dashboard</a>
+      <a href="customer">Customer Dashboard</a>
+    </div>
+<div class="content">
+  <h2>Customer Dashboard</h2>
+  
+  <div class="dropdown">
+    <label for="customerSelect">Select Customer ID:</label>
+    <select id="customerSelect" onchange="loadCustomerData()">
+        <!-- Populate options using Jinja for loop -->
+        {% for customer_id in customer_ids %}
+            <option value="{{ customer_id }}">{{ customer_id }}</option>
+        {% endfor %}
+    </select>
+</div>
+
+  <div id="suggestionsSection">
+    <h3>Suggestions</h3>
+    <!-- Suggestions content goes here -->
+    <div id="suggestionsSection2">
+        <p id="suggestionsText"> <!-- This paragraph will contain the dynamic message -->
+          <!-- The dynamic message will be inserted here -->
+        </p>
+      </div>
+      
+      <script>
+
+        function loadCustomerData() {
+            var customerSelect = document.getElementById("customerSelect");
+            var selectedCustomerId = customerSelect.value;
+
+            // Make a request to the server to get customer data based on the selected ID
+            fetch(`/get_customer_data/${selectedCustomerId}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Handle the received data as needed
+                    console.log("Customer Data:", data);
+
+                    // Example: Update the purchase history table
+                updatePurchaseHistoryTable(data);
+
+                makeRecommendation(data);
+                })
+                .catch(error => console.error("Error fetching customer data:", error));
+        }
+
+          function updatePurchaseHistoryTable(customerData) {
+            var purchases = customerData.slice(0, 10); // Get the last 10 purchases
+
+            var tableHtml = '<div class="purchase-history-container">';
+            tableHtml += '<h3>Purchase History</h3>';
+            tableHtml += '<table id="purchaseHistoryTable">';
+            tableHtml += '<thead><tr><th>Category</th><th>Country</th><th>Customer ID</th><th>Description</th><th>Quantity</th><th>Date</th><th>Price</th></tr></thead>';
+            tableHtml += '<tbody>';
+
+            // Loop through the last 10 purchases
+            for (var i = purchases.length - 1; i >= 0; i--) {
+                var rowColor = i % 2 === 0 ? '#FFDCE8' : '#FF8CB2';
+                tableHtml += `<tr style="background-color: ${rowColor};">`;
+                tableHtml += `<td>${purchases[i].Category}</td>`;
+                tableHtml += `<td>${purchases[i].Country}</td>`;
+                tableHtml += `<td>${purchases[i]["Customer ID"]}</td>`;
+                tableHtml += `<td>${purchases[i].Description}</td>`;
+                tableHtml += `<td>${purchases[i].Quantity}</td>`;
+                tableHtml += `<td>${purchases[i].Date}</td>`;
+                tableHtml += `<td>${purchases[i].Price}</td>`;
+                tableHtml += '</tr>';
+            }
+
+            tableHtml += '</tbody></table>';
+            tableHtml += '</div>';
+
+            // Replace the content of the purchase history section with the updated table
+            document.getElementById('purchaseHistorySection').innerHTML = tableHtml;
+        }
+          function makeRecommendation(customerData) {
+            console.log("makeRecommendation");
+
+            // Count the occurrences of each category
+            var categoryCounts = {};
+            customerData.forEach(purchase => {
+                var category = purchase.Category;
+                categoryCounts[category] = (categoryCounts[category] || 0) + 1;
+            });
+
+            // Find the most common category
+            var mostCommonCategory = Object.keys(categoryCounts).reduce((a, b) => categoryCounts[a] > categoryCounts[b] ? a : b);
+
+            // Filter out items that the user has already bought
+            var userBoughtProducts = new Set(customerData.map(purchase => purchase.Product_ID));
+            var unrecommendedItems = customerData.filter(item => item.Category === mostCommonCategory && !userBoughtProducts.has(item.Product_ID));
+
+            console.log("Unrecommended Items:", unrecommendedItems);
+
+            if (unrecommendedItems.length > 0) {
+                // Example: Get a random unrecommended item from the category
+                var randomIndex = Math.floor(Math.random() * unrecommendedItems.length);
+                console.log("Random Index:", randomIndex);
+
+                var recommendedItem = unrecommendedItems[randomIndex];
+
+                console.log("Recommended Item:", recommendedItem);
+
+                // Example: Display the recommendation using ChatGPT
+                generateRecommendationMessage(recommendedItem);
+            } else {
+                console.log("No unrecommended items found.");
+
+                // If there are no unrecommended items, generate a random recommendation from the same category
+                var allItemsInCategory = customerData.filter(item => item.Category === mostCommonCategory);
+
+                if (allItemsInCategory.length > 0) {
+                    var randomIndex = Math.floor(Math.random() * allItemsInCategory.length);
+                    var randomRecommendation = allItemsInCategory[randomIndex];
+
+                    console.log("Random Recommendation from the same category:", randomRecommendation);
+
+                    // Example: Display the random recommendation using ChatGPT
+                    generateRecommendationMessage(randomRecommendation);
+                } else {
+                    console.log("No items in the same category for a random recommendation.");
+                    // Handle the case where there are no items in the same category (e.g., provide a default recommendation or skip)
+                }
+            }
+        }
+
+            function generateRecommendationMessage(recommendedItem) {
+                var prompt = `Te rog generează un mesaj de recomandare pentru produsul ${recommendedItem.Description}.` +
+                    `pune un numar la inamplare in loc de Z pentru reducere.\n` +
+                    `Bună ziua \n` +
+                    `Având în vedere interesul dvs. anterior pentru ${recommendedItem.Description}, vă oferim un discount exclusiv de Z% valabil 48 de ore din momentul recepționării acestei notificări. ` +
+                    `Detalii suplimentare despre oferta noastră specială și despre produs pot fi găsite în aplicația mobilă RetailX, iar pentru comoditatea dvs., am trimis și un mesaj WhatsApp cu link direct către produs. `
+
+                // Call the function to fetch recommendation from ChatGPT Free API
+                fetchRecommendationFree(prompt)
+                    .then(recommendationMessage => {
+                    console.log("Recommendation Message:", recommendationMessage);
+                        // Display the recommendation message
+                        displayRecommendation(recommendationMessage);
+                    })
+                    .catch(error => console.error("Error generating recommendation message:", error));
+            }
+
+            function fetchRecommendationFree(prompt) {
+    var apiKey = "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"; // Replace with your free ChatGPT API key
+
+    return fetch("https://api.openai.com/v1/completions", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${apiKey}`
+        },
+        body: JSON.stringify({
+            model: "text-davinci-003", // Specify the model here, e.g., "text-davinci-003"
+            prompt: prompt,
+            max_tokens: 1000 // Adjust as needed
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(data => {
+        return data.choices[0].text; // Extracting the text response
+    })
+    .catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+    });
+}
+
+
+            function displayRecommendation(recommendationMessage) {
+                var recommendationHtml = '<div class="recommendation-container">';
+                recommendationHtml += `<p>${recommendationMessage}</p>`;
+                recommendationHtml += '</div>';
+
+                // Append the recommendation content
+                document.getElementById('suggestionsSection2').innerHTML = 'Dragă Client X, \n' + recommendationHtml;
+            }
+      </script>
+      
+  </div>
+
+  <div id="purchaseHistorySection">
+    <h3>Purchase History</h3>
+    <!-- Purchase history content goes here -->
+  </div>
+</div>
+
+</body>
+</html>

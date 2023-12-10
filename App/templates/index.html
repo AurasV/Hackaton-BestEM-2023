@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RetailX Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .chart-container {
+            width: 50%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <a href="index">Home</a>
+    <a href="employee">Employee Dashboard</a>
+    <a href="customer">Customer Dashboard</a>
+</div>
+
+<div class="content">
+    <h1>RetailX</h1>
+    <p>Welcome to RetailX, the comprehensive solution for retail management. Navigate through our dashboards to manage employees, track customer interactions, and streamline your retail operations. We're here to make retail management efficient and user-friendly.</p>
+
+    <div class="chart-container">
+        <canvas id="combinedChart"></canvas>
+    </div>
+</div>
+
+<script>
+    const data_sales = {{ data_sales | tojson | safe }};
+    const data_revenue = {{ data_revenue | tojson | safe }};
+
+    console.log("Monthly Sales:", {{ data_sales | tojson | safe }});
+    console.log("Monthly Revenue:", {{ data_revenue | tojson | safe }});
+    function processTotal(data) {
+        // This function will sum up all the values of each month for every product.
+        return data.reduce((totalSum, product) => {
+            // Get all keys except for 'Product_ID' and 'Description'
+            const monthKeys = Object.keys(product).filter(k => !['Product_ID', 'Description'].includes(k));
+
+            // Sum up all the monthly values for the current product
+            const monthlyTotal = monthKeys.reduce((sum, month) => sum + product[month], 0);
+
+            // Accumulate the monthly total in the overall totalSum
+            return totalSum + monthlyTotal;
+        }, 0);
+    }
+
+    // Then you can use this function to get the totals:
+    const totalSales = processTotal(data_sales);
+    const totalRevenue = processTotal(data_revenue);
+
+    // And pass these totals to the chart creation function:
+    createCombinedChart('combinedChart', totalSales, totalRevenue);
+
+    function createCombinedChart(canvasId, salesTotal, revenueTotal) {
+        // Removed the salesData.totals and revenueData.totals logs
+        console.log(salesTotal, revenueTotal);
+        const ctx = document.getElementById(canvasId).getContext('2d');
+        return new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Total Sales', 'Total Revenue'],
+                datasets: [{
+                    label: 'Yearly Totals',
+                    data: [salesTotal, revenueTotal],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.8)', // color for sales
+                        'rgba(54, 162, 235, 0.8)', // color for revenue
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: true // This will show the legend
+                    },
+                    tooltip: {
+                        enabled: true // This will show tooltips on hover
+                    }
+                }
+            }
+        });
+    }
+</script>
+
+
+</body>
+</html>
