@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 513315,
+    "Product_ID": 21737,
+    "Description": "SET 3 WICKER LOG BASKETS",
+    "Quantity": 1,
+    "Date": "2010-06-23",
+    "Price": 19.95,
+    "Customer ID": 15991,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 513315,
+    "Product_ID": 21319,
+    "Description": "GLASS CHALICE GREEN  SMALL ",
+    "Quantity": 12,
+    "Date": "2010-06-23",
+    "Price": 1.65,
+    "Customer ID": 15991,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 513315,
+    "Product_ID": 22426,
+    "Description": "ENAMEL WASH BOWL CREAM",
+    "Quantity": 10,
+    "Date": "2010-06-23",
+    "Price": 3.75,
+    "Customer ID": 15991,
+    "Country": "United Kingdom",
+    "Category": "Crafts & Hobbies"
+  },
+  {
+    "Invoice": 513315,
+    "Product_ID": 21590,
+    "Description": "KINGS CHOICE CIGAR BOX MATCHES ",
+    "Quantity": 2,
+    "Date": "2010-06-23",
+    "Price": 1.25,
+    "Customer ID": 15991,
+    "Country": "United Kingdom",
+    "Category": "Storage & Organization"
+  },
+  {
+    "Invoice": 513315,
+    "Product_ID": 22423,
+    "Description": "REGENCY CAKESTAND 3 TIER",
+    "Quantity": 4,
+    "Date": "2010-06-23",
+    "Price": 12.75,
+    "Customer ID": 15991,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 513315,
+    "Product_ID": 21318,
+    "Description": "GLASS CHALICE BLUE SMALL ",
+    "Quantity": 12,
+    "Date": "2010-06-23",
+    "Price": 1.65,
+    "Customer ID": 15991,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  }
+]

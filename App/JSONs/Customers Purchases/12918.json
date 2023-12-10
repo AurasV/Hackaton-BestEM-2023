@@ -1,0 +1,13 @@
+[
+  {
+    "Invoice": 502263,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-03-23",
+    "Price": 10953.5,
+    "Customer ID": 12918,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

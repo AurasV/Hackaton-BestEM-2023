@@ -1,0 +1,46 @@
+[
+  {
+    "Invoice": 539280,
+    "Product_ID": 21735,
+    "Description": "TWO DOOR CURIO CABINET",
+    "Quantity": 2,
+    "Date": "2010-12-16",
+    "Price": 12.75,
+    "Customer ID": 14373,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 539280,
+    "Product_ID": 85048,
+    "Description": "15CM CHRISTMAS GLASS BALL 20 LIGHTS",
+    "Quantity": 2,
+    "Date": "2010-12-16",
+    "Price": 7.95,
+    "Customer ID": 14373,
+    "Country": "United Kingdom",
+    "Category": "Festive & Seasonal"
+  },
+  {
+    "Invoice": 539280,
+    "Product_ID": 22769,
+    "Description": "CHALKBOARD KITCHEN ORGANISER",
+    "Quantity": 1,
+    "Date": "2010-12-16",
+    "Price": 24.95,
+    "Customer ID": 14373,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 539280,
+    "Product_ID": 22595,
+    "Description": "CHRISTMAS GINGHAM HEART",
+    "Quantity": 12,
+    "Date": "2010-12-16",
+    "Price": 0.85,
+    "Customer ID": 14373,
+    "Country": "United Kingdom",
+    "Category": "Festive & Seasonal"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 504686,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-04-15",
+    "Price": 94.8,
+    "Customer ID": 15354,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 504687,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-04-15",
+    "Price": 94.8,
+    "Customer ID": 15354,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 504688,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-04-15",
+    "Price": 94.8,
+    "Customer ID": 15354,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

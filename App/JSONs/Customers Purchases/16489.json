@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 524567,
+    "Product_ID": 84880,
+    "Description": "WHITE WIRE EGG HOLDER",
+    "Quantity": 3,
+    "Date": "2010-09-29",
+    "Price": 5.95,
+    "Customer ID": 16489,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 524567,
+    "Product_ID": 22283,
+    "Description": "6 EGG HOUSE PAINTED WOOD",
+    "Quantity": 4,
+    "Date": "2010-09-29",
+    "Price": 7.95,
+    "Customer ID": 16489,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 524567,
+    "Product_ID": 22282,
+    "Description": "12 EGG HOUSE PAINTED WOOD",
+    "Quantity": 4,
+    "Date": "2010-09-29",
+    "Price": 12.75,
+    "Customer ID": 16489,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 524567,
+    "Product_ID": 22269,
+    "Description": "EGG CUP NATURAL CHICKEN",
+    "Quantity": 8,
+    "Date": "2010-09-29",
+    "Price": 1.25,
+    "Customer ID": 16489,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 534879,
+    "Product_ID": 22282,
+    "Description": "12 EGG HOUSE PAINTED WOOD",
+    "Quantity": 16,
+    "Date": "2010-11-24",
+    "Price": 10.95,
+    "Customer ID": 16489,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 534879,
+    "Product_ID": 84880,
+    "Description": "WHITE WIRE EGG HOLDER",
+    "Quantity": 3,
+    "Date": "2010-11-24",
+    "Price": 5.95,
+    "Customer ID": 16489,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  }
+]

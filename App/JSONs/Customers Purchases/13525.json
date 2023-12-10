@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 549020,
+    "Product_ID": 84879,
+    "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+    "Quantity": 160,
+    "Date": "2011-04-05",
+    "Price": 1.45,
+    "Customer ID": 13525,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 549020,
+    "Product_ID": "72801C",
+    "Description": "4 ROSE PINK DINNER CANDLES",
+    "Quantity": 48,
+    "Date": "2011-04-05",
+    "Price": 1.06,
+    "Customer ID": 13525,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 578785,
+    "Product_ID": 84879,
+    "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+    "Quantity": 160,
+    "Date": "2011-11-25",
+    "Price": 1.45,
+    "Customer ID": 13525,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 578785,
+    "Product_ID": 22622,
+    "Description": "BOX OF VINTAGE ALPHABET BLOCKS",
+    "Quantity": 2,
+    "Date": "2011-11-25",
+    "Price": 11.95,
+    "Customer ID": 13525,
+    "Country": "United Kingdom",
+    "Category": "Storage & Organization"
+  },
+  {
+    "Invoice": 578785,
+    "Product_ID": 23395,
+    "Description": "BELLE JARDINIERE CUSHION COVER",
+    "Quantity": 12,
+    "Date": "2011-11-25",
+    "Price": 3.75,
+    "Customer ID": 13525,
+    "Country": "United Kingdom",
+    "Category": "Pet Supplies"
+  },
+  {
+    "Invoice": 578785,
+    "Product_ID": 23396,
+    "Description": "LE JARDIN BOTANIQUE CUSHION COVER",
+    "Quantity": 12,
+    "Date": "2011-11-25",
+    "Price": 3.75,
+    "Customer ID": 13525,
+    "Country": "United Kingdom",
+    "Category": "Pet Supplies"
+  }
+]

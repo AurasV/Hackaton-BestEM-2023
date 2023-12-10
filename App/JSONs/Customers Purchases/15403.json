@@ -1,0 +1,90 @@
+[
+  {
+    "Invoice": 491073,
+    "Product_ID": 21068,
+    "Description": "VINTAGE BILLBOARD LOVE/HATE MUG",
+    "Quantity": 72,
+    "Date": "2009-12-09",
+    "Price": 0.38,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 491073,
+    "Product_ID": 21070,
+    "Description": "VINTAGE BILLBOARD MUG ",
+    "Quantity": 36,
+    "Date": "2009-12-09",
+    "Price": 0.38,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 491073,
+    "Product_ID": 21067,
+    "Description": "VINTAGE RED TEATIME MUG",
+    "Quantity": 36,
+    "Date": "2009-12-09",
+    "Price": 0.38,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 491073,
+    "Product_ID": 21066,
+    "Description": "VINTAGE RED MUG",
+    "Quantity": 36,
+    "Date": "2009-12-09",
+    "Price": 0.38,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 491073,
+    "Product_ID": "16162L",
+    "Description": "THE KING GIFT BAG",
+    "Quantity": 144,
+    "Date": "2009-12-09",
+    "Price": 0.19,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Travel & Luggage"
+  },
+  {
+    "Invoice": 518216,
+    "Product_ID": 21066,
+    "Description": "VINTAGE RED MUG",
+    "Quantity": 72,
+    "Date": "2010-08-05",
+    "Price": 0.38,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 518216,
+    "Product_ID": 21067,
+    "Description": "VINTAGE RED TEATIME MUG",
+    "Quantity": 72,
+    "Date": "2010-08-05",
+    "Price": 0.38,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 518216,
+    "Product_ID": 85091,
+    "Description": "CANDY SPOT BREAD BASKETS",
+    "Quantity": 24,
+    "Date": "2010-08-05",
+    "Price": 0.85,
+    "Customer ID": 15403,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Invoice": 575948,
+    "Product_ID": 21240,
+    "Description": "BLUE POLKADOT CUP",
+    "Quantity": 1,
+    "Date": "2011-11-13",
+    "Price": 0.85,
+    "Customer ID": 14661,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 575948,
+    "Product_ID": 23017,
+    "Description": "APOTHECARY MEASURING JAR",
+    "Quantity": 6,
+    "Date": "2011-11-13",
+    "Price": 11.15,
+    "Customer ID": 14661,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 575948,
+    "Product_ID": "18097C",
+    "Description": "WHITE TALL PORCELAIN T-LIGHT HOLDER",
+    "Quantity": 4,
+    "Date": "2011-11-13",
+    "Price": 2.55,
+    "Customer ID": 14661,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 575948,
+    "Product_ID": 84946,
+    "Description": "ANTIQUE SILVER T-LIGHT GLASS",
+    "Quantity": 24,
+    "Date": "2011-11-13",
+    "Price": 1.25,
+    "Customer ID": 14661,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  }
+]

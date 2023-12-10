@@ -1,0 +1,57 @@
+[
+  {
+    "Invoice": 490385,
+    "Product_ID": 22149,
+    "Description": "FELTCRAFT 6 FLOWER FRIENDS",
+    "Quantity": 12,
+    "Date": "2009-12-05",
+    "Price": 2.1,
+    "Customer ID": 16410,
+    "Country": "United Kingdom",
+    "Category": "Crafts & Hobbies"
+  },
+  {
+    "Invoice": 490385,
+    "Product_ID": "82616A",
+    "Description": "BUBBLE GUM SCARF KNITTING KIT",
+    "Quantity": 48,
+    "Date": "2009-12-05",
+    "Price": 1.25,
+    "Customer ID": 16410,
+    "Country": "United Kingdom",
+    "Category": "Fashion & Apparel"
+  },
+  {
+    "Invoice": 490385,
+    "Product_ID": 16046,
+    "Description": "TEATIME PEN CASE & PENS",
+    "Quantity": 96,
+    "Date": "2009-12-05",
+    "Price": 0.19,
+    "Customer ID": 16410,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 490385,
+    "Product_ID": 35969,
+    "Description": "FOLKART CROWN TABLE DECORATIONS",
+    "Quantity": 48,
+    "Date": "2009-12-05",
+    "Price": 0.38,
+    "Customer ID": 16410,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 490385,
+    "Product_ID": 35015,
+    "Description": "JACOBS LADDER SMALL",
+    "Quantity": 144,
+    "Date": "2009-12-05",
+    "Price": 0.06,
+    "Customer ID": 16410,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  }
+]

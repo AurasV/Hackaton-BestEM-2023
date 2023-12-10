@@ -1,0 +1,90 @@
+[
+  {
+    "Invoice": 537248,
+    "Product_ID": "84968F",
+    "Description": "SET OF 16 VINTAGE SKY BLUE CUTLERY",
+    "Quantity": 1,
+    "Date": "2010-12-06",
+    "Price": 12.75,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": "79030D",
+    "Description": "TUMBLER, BAROQUE",
+    "Quantity": 6,
+    "Date": "2010-12-06",
+    "Price": 1.65,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": 21291,
+    "Description": "SMALL POLKADOT CHOCOLATE GIFT BAG ",
+    "Quantity": 16,
+    "Date": "2010-12-06",
+    "Price": 0.85,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": 21289,
+    "Description": "LARGE STRIPES CHOCOLATE GIFT BAG",
+    "Quantity": 16,
+    "Date": "2010-12-06",
+    "Price": 1.25,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": "84968F",
+    "Description": "SET OF 16 VINTAGE SKY BLUE CUTLERY",
+    "Quantity": 1,
+    "Date": "2010-12-06",
+    "Price": 12.75,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": "79030D",
+    "Description": "TUMBLER, BAROQUE",
+    "Quantity": 6,
+    "Date": "2010-12-06",
+    "Price": 1.65,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": 21291,
+    "Description": "SMALL POLKADOT CHOCOLATE GIFT BAG ",
+    "Quantity": 16,
+    "Date": "2010-12-06",
+    "Price": 0.85,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 537248,
+    "Product_ID": 21289,
+    "Description": "LARGE STRIPES CHOCOLATE GIFT BAG",
+    "Quantity": 16,
+    "Date": "2010-12-06",
+    "Price": 1.25,
+    "Customer ID": 15899,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  }
+]

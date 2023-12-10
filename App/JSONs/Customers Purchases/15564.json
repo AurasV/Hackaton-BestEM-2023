@@ -1,0 +1,46 @@
+[
+  {
+    "Invoice": 496477,
+    "Product_ID": 84946,
+    "Description": "ANTIQUE SILVER TEA GLASS ETCHED",
+    "Quantity": 12,
+    "Date": "2010-02-01",
+    "Price": 1.25,
+    "Customer ID": 15564,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 496477,
+    "Product_ID": 84947,
+    "Description": "ANTIQUE SILVER TEA GLASS ENGRAVED",
+    "Quantity": 12,
+    "Date": "2010-02-01",
+    "Price": 1.25,
+    "Customer ID": 15564,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 496477,
+    "Product_ID": 72008,
+    "Description": "FROSTED BOX 9 WHITE T-LIGHT CANDLES",
+    "Quantity": 12,
+    "Date": "2010-02-01",
+    "Price": 0.42,
+    "Customer ID": 15564,
+    "Country": "United Kingdom",
+    "Category": "Storage & Organization"
+  },
+  {
+    "Invoice": 521177,
+    "Product_ID": 21742,
+    "Description": "LARGE ROUND WICKER PLATTER ",
+    "Quantity": 6,
+    "Date": "2010-09-02",
+    "Price": 5.95,
+    "Customer ID": 15564,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  }
+]

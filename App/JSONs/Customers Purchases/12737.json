@@ -1,0 +1,24 @@
+[
+  {
+    "Invoice": 517481,
+    "Product_ID": "C2",
+    "Description": "CARRIAGE",
+    "Quantity": 1,
+    "Date": "2010-07-29",
+    "Price": 100.0,
+    "Customer ID": 12737,
+    "Country": "France",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 517483,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-07-29",
+    "Price": 3610.5,
+    "Customer ID": 12737,
+    "Country": "France",
+    "Category": "Other"
+  }
+]

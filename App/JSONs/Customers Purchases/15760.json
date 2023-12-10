@@ -1,0 +1,24 @@
+[
+  {
+    "Invoice": 501766,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-03-19",
+    "Price": 6958.17,
+    "Customer ID": 15760,
+    "Country": "Norway",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 501768,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-03-19",
+    "Price": 6958.17,
+    "Customer ID": 15760,
+    "Country": "Norway",
+    "Category": "Other"
+  }
+]

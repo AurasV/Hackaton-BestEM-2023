@@ -1,0 +1,79 @@
+[
+  {
+    "Invoice": 492185,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 3000,
+    "Date": "2009-12-15",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 512170,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 2000,
+    "Date": "2010-06-14",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 529628,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 3000,
+    "Date": "2010-10-29",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 547519,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 1000,
+    "Date": "2011-03-23",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 552172,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 2000,
+    "Date": "2011-05-06",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 564272,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 2000,
+    "Date": "2011-08-24",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 573995,
+    "Product_ID": 16014,
+    "Description": "SMALL CHINESE STYLE SCISSOR",
+    "Quantity": 3000,
+    "Date": "2011-11-02",
+    "Price": 0.32,
+    "Customer ID": 16308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

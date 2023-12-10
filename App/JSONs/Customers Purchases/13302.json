@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 514298,
+    "Product_ID": 85067,
+    "Description": "CREAM SWEETHEART WALL CABINET",
+    "Quantity": 1,
+    "Date": "2010-07-01",
+    "Price": 18.95,
+    "Customer ID": 13302,
+    "Country": "United Kingdom",
+    "Category": "Beauty & Care"
+  },
+  {
+    "Invoice": 514298,
+    "Product_ID": "84968B",
+    "Description": "S/16 VINTAGE IVORY CUTLERY",
+    "Quantity": 6,
+    "Date": "2010-07-01",
+    "Price": 12.75,
+    "Customer ID": 13302,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 559353,
+    "Product_ID": "84968C",
+    "Description": "SET OF 16 VINTAGE PISTACHIO CUTLERY",
+    "Quantity": 5,
+    "Date": "2011-07-07",
+    "Price": 12.75,
+    "Customer ID": 13302,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  }
+]

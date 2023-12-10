@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 505084,
+    "Product_ID": 79341,
+    "Description": "WILLOW BRANCH LIGHTS.",
+    "Quantity": 12,
+    "Date": "2010-04-20",
+    "Price": 6.75,
+    "Customer ID": 14926,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 505084,
+    "Product_ID": 79164,
+    "Description": "BLACK WINE GLASS",
+    "Quantity": 96,
+    "Date": "2010-04-20",
+    "Price": 1.45,
+    "Customer ID": 14926,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 534457,
+    "Product_ID": 79164,
+    "Description": "BLACK WINE GLASS",
+    "Quantity": 96,
+    "Date": "2010-11-23",
+    "Price": 1.45,
+    "Customer ID": 14926,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  }
+]

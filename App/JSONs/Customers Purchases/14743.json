@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 505766,
+    "Product_ID": 21651,
+    "Description": "HANGING GLASS ETCHED TEALIGHT",
+    "Quantity": 12,
+    "Date": "2010-04-26",
+    "Price": 1.65,
+    "Customer ID": 14743,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 505766,
+    "Product_ID": 21655,
+    "Description": "HANGING RIDGE GLASS T-LIGHT HOLDER",
+    "Quantity": 12,
+    "Date": "2010-04-26",
+    "Price": 1.69,
+    "Customer ID": 14743,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 505766,
+    "Product_ID": 84755,
+    "Description": "COLOUR GLASS T-LIGHT HOLDER HANGING",
+    "Quantity": 16,
+    "Date": "2010-04-26",
+    "Price": 0.65,
+    "Customer ID": 14743,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  }
+]

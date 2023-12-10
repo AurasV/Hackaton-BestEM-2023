@@ -1,0 +1,79 @@
+[
+  {
+    "Invoice": 512557,
+    "Product_ID": 79029,
+    "Description": "GLASS HONEYPOT WASP CATCHER",
+    "Quantity": 6,
+    "Date": "2010-06-16",
+    "Price": 1.95,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 512557,
+    "Product_ID": "84795A",
+    "Description": "PASTEL STRIPE HAMMOCK ",
+    "Quantity": 2,
+    "Date": "2010-06-16",
+    "Price": 7.95,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Outdoor & Gardening"
+  },
+  {
+    "Invoice": 512557,
+    "Product_ID": 22607,
+    "Description": "WOODEN ROUNDERS GARDEN SET ",
+    "Quantity": 2,
+    "Date": "2010-06-16",
+    "Price": 8.5,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 512557,
+    "Product_ID": 22606,
+    "Description": "WOODEN SKITTLES GARDEN SET",
+    "Quantity": 1,
+    "Date": "2010-06-16",
+    "Price": 15.95,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 512557,
+    "Product_ID": 22605,
+    "Description": "WOODEN CROQUET GARDEN SET",
+    "Quantity": 1,
+    "Date": "2010-06-16",
+    "Price": 12.75,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 512557,
+    "Product_ID": 21621,
+    "Description": "VINTAGE UNION JACK BUNTING",
+    "Quantity": 2,
+    "Date": "2010-06-16",
+    "Price": 8.5,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 512557,
+    "Product_ID": 22087,
+    "Description": "PAPER BUNTING WHITE LACE",
+    "Quantity": 6,
+    "Date": "2010-06-16",
+    "Price": 2.95,
+    "Customer ID": 14374,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  }
+]

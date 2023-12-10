@@ -1,0 +1,90 @@
+[
+  {
+    "Invoice": 494118,
+    "Product_ID": 17096,
+    "Description": "ASSORTED LAQUERED INCENSE HOLDERS",
+    "Quantity": 576,
+    "Date": "2010-01-11",
+    "Price": 0.17,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 494118,
+    "Product_ID": 35160,
+    "Description": "BUDDHA INCENSE HOLDER ASSORTED",
+    "Quantity": 288,
+    "Date": "2010-01-11",
+    "Price": 0.72,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 504826,
+    "Product_ID": 17096,
+    "Description": "ASSORTED LAQUERED INCENSE HOLDERS",
+    "Quantity": 864,
+    "Date": "2010-04-16",
+    "Price": 0.17,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 504826,
+    "Product_ID": 35160,
+    "Description": "BUDDHA INCENSE HOLDER ASSORTED",
+    "Quantity": 288,
+    "Date": "2010-04-16",
+    "Price": 0.72,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 520370,
+    "Product_ID": 17096,
+    "Description": "ASSORTED LAQUERED INCENSE HOLDERS",
+    "Quantity": 864,
+    "Date": "2010-08-25",
+    "Price": 0.17,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 520370,
+    "Product_ID": 35160,
+    "Description": "BUDDHA INCENSE HOLDER ASSORTED",
+    "Quantity": 288,
+    "Date": "2010-08-25",
+    "Price": 0.72,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 538420,
+    "Product_ID": 17096,
+    "Description": "ASSORTED LAQUERED INCENSE HOLDERS",
+    "Quantity": 1728,
+    "Date": "2010-12-12",
+    "Price": 0.17,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 560582,
+    "Product_ID": 17096,
+    "Description": "ASSORTED LAQUERED INCENSE HOLDERS",
+    "Quantity": 291,
+    "Date": "2011-07-19",
+    "Price": 0.17,
+    "Customer ID": 12875,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "Invoice": 531547,
+    "Product_ID": 22764,
+    "Description": "RUSTIC WOODEN CABINET, GLASS DOORS",
+    "Quantity": 3,
+    "Date": "2010-11-09",
+    "Price": 24.95,
+    "Customer ID": 15635,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 531547,
+    "Product_ID": 21735,
+    "Description": "TWO DOOR CURIO CABINET",
+    "Quantity": 2,
+    "Date": "2010-11-09",
+    "Price": 12.75,
+    "Customer ID": 15635,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  }
+]

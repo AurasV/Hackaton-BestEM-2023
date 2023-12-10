@@ -1,0 +1,13 @@
+[
+  {
+    "Invoice": 497843,
+    "Product_ID": "TEST001",
+    "Description": "This is a test product.",
+    "Quantity": 5,
+    "Date": "2010-02-12",
+    "Price": 0.0,
+    "Customer ID": 14827,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

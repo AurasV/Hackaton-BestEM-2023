@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 552319,
+    "Product_ID": 20724,
+    "Description": "RED RETROSPOT CHARLOTTE BAG",
+    "Quantity": 10,
+    "Date": "2011-05-09",
+    "Price": 0.85,
+    "Customer ID": 13003,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 552319,
+    "Product_ID": "85014B",
+    "Description": "RED RETROSPOT UMBRELLA",
+    "Quantity": 3,
+    "Date": "2011-05-09",
+    "Price": 5.95,
+    "Customer ID": 13003,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 552319,
+    "Product_ID": 20665,
+    "Description": "RED RETROSPOT PURSE ",
+    "Quantity": 6,
+    "Date": "2011-05-09",
+    "Price": 2.95,
+    "Customer ID": 13003,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 552319,
+    "Product_ID": 21232,
+    "Description": "STRAWBERRY CERAMIC TRINKET BOX",
+    "Quantity": 12,
+    "Date": "2011-05-09",
+    "Price": 1.25,
+    "Customer ID": 13003,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 559658,
+    "Product_ID": 21232,
+    "Description": "STRAWBERRY CERAMIC TRINKET BOX",
+    "Quantity": 24,
+    "Date": "2011-07-11",
+    "Price": 1.25,
+    "Customer ID": 13003,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 564564,
+    "Product_ID": 21232,
+    "Description": "STRAWBERRY CERAMIC TRINKET BOX",
+    "Quantity": 48,
+    "Date": "2011-08-26",
+    "Price": 1.25,
+    "Customer ID": 13003,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  }
+]

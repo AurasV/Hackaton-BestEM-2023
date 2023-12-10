@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 501333,
+    "Product_ID": 21135,
+    "Description": "VICTORIAN  METAL POSTCARD SPRING",
+    "Quantity": 96,
+    "Date": "2010-03-16",
+    "Price": 1.69,
+    "Customer ID": 12366,
+    "Country": "Cyprus",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 501333,
+    "Product_ID": 21136,
+    "Description": "PAINTED METAL PEARS ASSORTED",
+    "Quantity": 96,
+    "Date": "2010-03-16",
+    "Price": 1.69,
+    "Customer ID": 12366,
+    "Country": "Cyprus",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 501333,
+    "Product_ID": 84879,
+    "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+    "Quantity": 104,
+    "Date": "2010-03-16",
+    "Price": 1.69,
+    "Customer ID": 12366,
+    "Country": "Cyprus",
+    "Category": "Home Decor & Ornaments"
+  }
+]

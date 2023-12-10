@@ -1,0 +1,57 @@
+[
+  {
+    "Invoice": 523786,
+    "Product_ID": "75049L",
+    "Description": "LARGE CIRCULAR MIRROR MOBILE",
+    "Quantity": 672,
+    "Date": "2010-09-24",
+    "Price": 0.85,
+    "Customer ID": 16692,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 529211,
+    "Product_ID": "75049L",
+    "Description": "LARGE CIRCULAR MIRROR MOBILE",
+    "Quantity": 54,
+    "Date": "2010-10-27",
+    "Price": 1.25,
+    "Customer ID": 16692,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 544809,
+    "Product_ID": 21621,
+    "Description": "VINTAGE UNION JACK BUNTING",
+    "Quantity": 1,
+    "Date": "2011-02-23",
+    "Price": 8.5,
+    "Customer ID": 16692,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 547941,
+    "Product_ID": "POST",
+    "Description": "POSTAGE",
+    "Quantity": 1,
+    "Date": "2011-03-28",
+    "Price": 150.0,
+    "Customer ID": 16692,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 547941,
+    "Product_ID": 21621,
+    "Description": "VINTAGE UNION JACK BUNTING",
+    "Quantity": 150,
+    "Date": "2011-03-28",
+    "Price": 7.45,
+    "Customer ID": 16692,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "Invoice": 511520,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-06-08",
+    "Price": 849.45,
+    "Customer ID": 14308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 511523,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 1,
+    "Date": "2010-06-08",
+    "Price": 297.57,
+    "Customer ID": 14308,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

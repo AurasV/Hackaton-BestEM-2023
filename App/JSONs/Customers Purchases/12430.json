@@ -1,0 +1,123 @@
+[
+  {
+    "Invoice": 573108,
+    "Product_ID": 23144,
+    "Description": "ZINC T-LIGHT HOLDER STARS SMALL",
+    "Quantity": 12,
+    "Date": "2011-10-27",
+    "Price": 0.83,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 23145,
+    "Description": "ZINC T-LIGHT HOLDER STAR LARGE",
+    "Quantity": 12,
+    "Date": "2011-10-27",
+    "Price": 0.95,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 22964,
+    "Description": "3 PIECE SPACEBOY COOKIE CUTTER SET",
+    "Quantity": 12,
+    "Date": "2011-10-27",
+    "Price": 2.1,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 84380,
+    "Description": "SET OF 3 BUTTERFLY COOKIE CUTTERS",
+    "Quantity": 12,
+    "Date": "2011-10-27",
+    "Price": 1.45,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 22585,
+    "Description": "PACK OF 6 BIRDY GIFT TAGS",
+    "Quantity": 12,
+    "Date": "2011-10-27",
+    "Price": 1.25,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 22622,
+    "Description": "BOX OF VINTAGE ALPHABET BLOCKS",
+    "Quantity": 4,
+    "Date": "2011-10-27",
+    "Price": 11.95,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Storage & Organization"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 22544,
+    "Description": "MINI JIGSAW SPACEBOY",
+    "Quantity": 24,
+    "Date": "2011-10-27",
+    "Price": 0.42,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 23122,
+    "Description": "PARTY CHARMS 50 PIECES",
+    "Quantity": 12,
+    "Date": "2011-10-27",
+    "Price": 0.83,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Party & Celebration"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 23480,
+    "Description": "MINI LIGHTS WOODLAND MUSHROOMS",
+    "Quantity": 8,
+    "Date": "2011-10-27",
+    "Price": 3.75,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": 23569,
+    "Description": "TRADTIONAL ALPHABET STAMP SET",
+    "Quantity": 8,
+    "Date": "2011-10-27",
+    "Price": 4.95,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 573108,
+    "Product_ID": "POST",
+    "Description": "POSTAGE",
+    "Quantity": 1,
+    "Date": "2011-10-27",
+    "Price": 40.0,
+    "Customer ID": 12430,
+    "Country": "Norway",
+    "Category": "Other"
+  }
+]

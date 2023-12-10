@@ -1,0 +1,112 @@
+[
+  {
+    "Invoice": 496877,
+    "Product_ID": "17027A",
+    "Description": "INCENSE BAZAAR CANNABIS",
+    "Quantity": 144,
+    "Date": "2010-02-04",
+    "Price": 0.42,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 496877,
+    "Product_ID": "17091J",
+    "Description": "VANILLA INCENSE IN TIN",
+    "Quantity": 252,
+    "Date": "2010-02-04",
+    "Price": 0.85,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 496877,
+    "Product_ID": "17091A",
+    "Description": "LAVENDER INCENSE IN TIN",
+    "Quantity": 252,
+    "Date": "2010-02-04",
+    "Price": 0.85,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 500828,
+    "Product_ID": 17039,
+    "Description": "INLAID WOOD INCENSE HOLDER",
+    "Quantity": 500,
+    "Date": "2010-03-10",
+    "Price": 0.21,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 500828,
+    "Product_ID": "17027A",
+    "Description": "INCENSE BAZAAR CANNABIS",
+    "Quantity": 84,
+    "Date": "2010-03-10",
+    "Price": 0.29,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 500828,
+    "Product_ID": "17091A",
+    "Description": "LAVENDER INCENSE IN TIN",
+    "Quantity": 216,
+    "Date": "2010-03-10",
+    "Price": 0.85,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 500828,
+    "Product_ID": "17091J",
+    "Description": "VANILLA INCENSE IN TIN",
+    "Quantity": 216,
+    "Date": "2010-03-10",
+    "Price": 0.85,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 508909,
+    "Product_ID": "17091J",
+    "Description": "VANILLA INCENSE IN TIN",
+    "Quantity": 288,
+    "Date": "2010-05-19",
+    "Price": 0.85,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 508909,
+    "Product_ID": 17039,
+    "Description": "INLAID WOOD INCENSE HOLDER",
+    "Quantity": 500,
+    "Date": "2010-05-19",
+    "Price": 0.21,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 518423,
+    "Product_ID": 17039,
+    "Description": "INLAID WOOD INCENSE HOLDER",
+    "Quantity": 985,
+    "Date": "2010-08-09",
+    "Price": 0.21,
+    "Customer ID": 13783,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  }
+]

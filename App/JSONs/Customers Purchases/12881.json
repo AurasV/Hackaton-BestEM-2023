@@ -1,0 +1,79 @@
+[
+  {
+    "Invoice": 546088,
+    "Product_ID": 22826,
+    "Description": "LOVE SEAT ANTIQUE WHITE METAL",
+    "Quantity": 1,
+    "Date": "2011-03-09",
+    "Price": 195.0,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 546088,
+    "Product_ID": 22853,
+    "Description": "CAT BOWL VINTAGE CREAM",
+    "Quantity": 6,
+    "Date": "2011-03-09",
+    "Price": 3.25,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Pet Supplies"
+  },
+  {
+    "Invoice": 546088,
+    "Product_ID": 22852,
+    "Description": "DOG BOWL VINTAGE CREAM",
+    "Quantity": 4,
+    "Date": "2011-03-09",
+    "Price": 4.25,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Pet Supplies"
+  },
+  {
+    "Invoice": 546088,
+    "Product_ID": 22845,
+    "Description": "VINTAGE CREAM CAT FOOD CONTAINER",
+    "Quantity": 2,
+    "Date": "2011-03-09",
+    "Price": 6.35,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 546088,
+    "Product_ID": 22844,
+    "Description": "VINTAGE CREAM DOG FOOD CONTAINER",
+    "Quantity": 2,
+    "Date": "2011-03-09",
+    "Price": 8.5,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 546088,
+    "Product_ID": 22624,
+    "Description": "IVORY KITCHEN SCALES",
+    "Quantity": 2,
+    "Date": "2011-03-09",
+    "Price": 8.5,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 546088,
+    "Product_ID": 22430,
+    "Description": "ENAMEL WATERING CAN CREAM",
+    "Quantity": 4,
+    "Date": "2011-03-09",
+    "Price": 4.95,
+    "Customer ID": 12881,
+    "Country": "United Kingdom",
+    "Category": "Crafts & Hobbies"
+  }
+]

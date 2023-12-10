@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 529360,
+    "Product_ID": 22909,
+    "Description": "SET OF 20 VINTAGE CHRISTMAS NAPKINS",
+    "Quantity": 24,
+    "Date": "2010-10-28",
+    "Price": 0.85,
+    "Customer ID": 15285,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 529360,
+    "Product_ID": 22812,
+    "Description": "PACK 3 BOXES CHRISTMAS PANNETONE",
+    "Quantity": 12,
+    "Date": "2010-10-28",
+    "Price": 1.95,
+    "Customer ID": 15285,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 529360,
+    "Product_ID": 21802,
+    "Description": "CHRISTMAS TREE HEART DECORATION",
+    "Quantity": 36,
+    "Date": "2010-10-28",
+    "Price": 0.42,
+    "Customer ID": 15285,
+    "Country": "United Kingdom",
+    "Category": "Festive & Seasonal"
+  },
+  {
+    "Invoice": 529360,
+    "Product_ID": 21098,
+    "Description": "CHRISTMAS TOILET ROLL",
+    "Quantity": 12,
+    "Date": "2010-10-28",
+    "Price": 1.25,
+    "Customer ID": 15285,
+    "Country": "United Kingdom",
+    "Category": "Festive & Seasonal"
+  },
+  {
+    "Invoice": 529360,
+    "Product_ID": 22952,
+    "Description": "60 CAKE CASES VINTAGE CHRISTMAS",
+    "Quantity": 24,
+    "Date": "2010-10-28",
+    "Price": 0.55,
+    "Customer ID": 15285,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 529360,
+    "Product_ID": 22821,
+    "Description": "GIFT BAG PSYCHEDELIC APPLES",
+    "Quantity": 12,
+    "Date": "2010-10-28",
+    "Price": 0.65,
+    "Customer ID": 15285,
+    "Country": "United Kingdom",
+    "Category": "Travel & Luggage"
+  }
+]

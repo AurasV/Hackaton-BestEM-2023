@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 495908,
+    "Product_ID": 62018,
+    "Description": "SOMBRERO ",
+    "Quantity": 200,
+    "Date": "2010-01-27",
+    "Price": 1.25,
+    "Customer ID": 15389,
+    "Country": "United Kingdom",
+    "Category": "Clothing"
+  },
+  {
+    "Invoice": 495908,
+    "Product_ID": 84212,
+    "Description": "ASSORTED FLOWER COLOUR \"LEIS\"",
+    "Quantity": 1440,
+    "Date": "2010-01-27",
+    "Price": 0.42,
+    "Customer ID": 15389,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 510043,
+    "Product_ID": 62018,
+    "Description": "SOMBRERO ",
+    "Quantity": 300,
+    "Date": "2010-05-26",
+    "Price": 1.25,
+    "Customer ID": 15389,
+    "Country": "United Kingdom",
+    "Category": "Clothing"
+  },
+  {
+    "Invoice": 510667,
+    "Product_ID": 84212,
+    "Description": "ASSORTED FLOWER COLOUR \"LEIS\"",
+    "Quantity": 1200,
+    "Date": "2010-06-02",
+    "Price": 0.42,
+    "Customer ID": 15389,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 530963,
+    "Product_ID": 62018,
+    "Description": "SOMBRERO ",
+    "Quantity": 400,
+    "Date": "2010-11-04",
+    "Price": 1.25,
+    "Customer ID": 15389,
+    "Country": "United Kingdom",
+    "Category": "Clothing"
+  },
+  {
+    "Invoice": 557509,
+    "Product_ID": 62018,
+    "Description": "SOMBRERO ",
+    "Quantity": 400,
+    "Date": "2011-06-20",
+    "Price": 1.25,
+    "Customer ID": 15389,
+    "Country": "United Kingdom",
+    "Category": "Clothing"
+  }
+]

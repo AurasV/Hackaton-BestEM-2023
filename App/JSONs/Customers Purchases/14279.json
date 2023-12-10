@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 495946,
+    "Product_ID": 78033,
+    "Description": "FLAG OF ST GEORGE CHAIR",
+    "Quantity": 12,
+    "Date": "2010-01-27",
+    "Price": 4.25,
+    "Customer ID": 14279,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 495946,
+    "Product_ID": 48138,
+    "Description": "DOOR MAT UNION FLAG",
+    "Quantity": 10,
+    "Date": "2010-01-27",
+    "Price": 5.95,
+    "Customer ID": 14279,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 514858,
+    "Product_ID": "84029G",
+    "Description": "KNITTED UNION FLAG HOT WATER BOTTLE",
+    "Quantity": 24,
+    "Date": "2010-07-07",
+    "Price": 3.39,
+    "Customer ID": 14279,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  }
+]

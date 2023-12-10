@@ -1,0 +1,57 @@
+[
+  {
+    "Invoice": 505575,
+    "Product_ID": 22607,
+    "Description": "WOODEN ROUNDERS GARDEN SET ",
+    "Quantity": 2,
+    "Date": "2010-04-23",
+    "Price": 8.5,
+    "Customer ID": 16028,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 505575,
+    "Product_ID": 21844,
+    "Description": "RED RETROSPOT MUG",
+    "Quantity": 6,
+    "Date": "2010-04-23",
+    "Price": 2.95,
+    "Customer ID": 16028,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 505575,
+    "Product_ID": 22374,
+    "Description": "AIRLINE BAG VINTAGE JET SET RED",
+    "Quantity": 2,
+    "Date": "2010-04-23",
+    "Price": 6.35,
+    "Customer ID": 16028,
+    "Country": "United Kingdom",
+    "Category": "Travel & Luggage"
+  },
+  {
+    "Invoice": 505575,
+    "Product_ID": 22568,
+    "Description": "FELTCRAFT CUSHION OWL",
+    "Quantity": 4,
+    "Date": "2010-04-23",
+    "Price": 3.75,
+    "Customer ID": 16028,
+    "Country": "United Kingdom",
+    "Category": "Crafts & Hobbies"
+  },
+  {
+    "Invoice": 505575,
+    "Product_ID": 22505,
+    "Description": "MEMO BOARD COTTAGE DESIGN",
+    "Quantity": 4,
+    "Date": "2010-04-23",
+    "Price": 4.95,
+    "Customer ID": 16028,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  }
+]

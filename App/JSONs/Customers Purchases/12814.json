@@ -1,0 +1,24 @@
+[
+  {
+    "Invoice": 564819,
+    "Product_ID": 23084,
+    "Description": "RABBIT NIGHT LIGHT",
+    "Quantity": 48,
+    "Date": "2011-08-30",
+    "Price": 1.79,
+    "Customer ID": 12814,
+    "Country": "Poland",
+    "Category": "Fashion & Apparel"
+  },
+  {
+    "Invoice": 564819,
+    "Product_ID": "POST",
+    "Description": "POSTAGE",
+    "Quantity": 1,
+    "Date": "2011-08-30",
+    "Price": 40.0,
+    "Customer ID": 12814,
+    "Country": "Poland",
+    "Category": "Other"
+  }
+]

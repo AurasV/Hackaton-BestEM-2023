@@ -1,0 +1,101 @@
+[
+  {
+    "Invoice": 526668,
+    "Product_ID": 22666,
+    "Description": "RECIPE BOX PANTRY YELLOW DESIGN",
+    "Quantity": 6,
+    "Date": "2010-10-12",
+    "Price": 2.95,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Storage & Organization"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22372,
+    "Description": "AIRLINE BAG VINTAGE WORLD CHAMPION ",
+    "Quantity": 4,
+    "Date": "2010-10-12",
+    "Price": 4.25,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Travel & Luggage"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22709,
+    "Description": "WRAP WEDDING DAY",
+    "Quantity": 25,
+    "Date": "2010-10-12",
+    "Price": 0.42,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22710,
+    "Description": "WRAP I LOVE LONDON ",
+    "Quantity": 25,
+    "Date": "2010-10-12",
+    "Price": 0.42,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22738,
+    "Description": "RIBBON REEL SNOWY VILLAGE",
+    "Quantity": 10,
+    "Date": "2010-10-12",
+    "Price": 1.65,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Accessories"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22736,
+    "Description": "RIBBON REEL MAKING SNOWMEN ",
+    "Quantity": 10,
+    "Date": "2010-10-12",
+    "Price": 1.65,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Accessories"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22959,
+    "Description": "WRAP CHRISTMAS VILLAGE",
+    "Quantity": 25,
+    "Date": "2010-10-12",
+    "Price": 0.42,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 21491,
+    "Description": "SET OF THREE VINTAGE GIFT WRAPS",
+    "Quantity": 12,
+    "Date": "2010-10-12",
+    "Price": 1.95,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 526668,
+    "Product_ID": 22909,
+    "Description": "SET OF 20 VINTAGE CHRISTMAS NAPKINS",
+    "Quantity": 12,
+    "Date": "2010-10-12",
+    "Price": 0.85,
+    "Customer ID": 12467,
+    "Country": "USA",
+    "Category": "Toys & Games"
+  }
+]

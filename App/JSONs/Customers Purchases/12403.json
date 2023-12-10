@@ -1,0 +1,101 @@
+[
+  {
+    "Invoice": 514808,
+    "Product_ID": "84997D",
+    "Description": "PINK 3 PIECE MINI DOTS CUTLERY SET",
+    "Quantity": 72,
+    "Date": "2010-07-06",
+    "Price": 3.39,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 514808,
+    "Product_ID": "84997C",
+    "Description": "BLUE 3 PIECE MINI DOTS CUTLERY SET",
+    "Quantity": 72,
+    "Date": "2010-07-06",
+    "Price": 3.39,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 514808,
+    "Product_ID": "84997A",
+    "Description": "GREEN 3 PIECE MINI DOTS CUTLERY SET",
+    "Quantity": 18,
+    "Date": "2010-07-06",
+    "Price": 3.75,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 514808,
+    "Product_ID": "POST",
+    "Description": "POSTAGE",
+    "Quantity": 2,
+    "Date": "2010-07-06",
+    "Price": 18.0,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 572184,
+    "Product_ID": "84997D",
+    "Description": "CHILDRENS CUTLERY POLKADOT PINK",
+    "Quantity": 40,
+    "Date": "2011-10-21",
+    "Price": 4.15,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 572184,
+    "Product_ID": "84997C",
+    "Description": "CHILDRENS CUTLERY POLKADOT BLUE",
+    "Quantity": 20,
+    "Date": "2011-10-21",
+    "Price": 4.15,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 572184,
+    "Product_ID": "84997A",
+    "Description": "CHILDRENS CUTLERY POLKADOT GREEN ",
+    "Quantity": 32,
+    "Date": "2011-10-21",
+    "Price": 4.15,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 572184,
+    "Product_ID": 21770,
+    "Description": "OPEN CLOSED METAL SIGN",
+    "Quantity": 2,
+    "Date": "2011-10-21",
+    "Price": 4.95,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 572184,
+    "Product_ID": "POST",
+    "Description": "POSTAGE",
+    "Quantity": 2,
+    "Date": "2011-10-21",
+    "Price": 18.0,
+    "Customer ID": 12403,
+    "Country": "Denmark",
+    "Category": "Other"
+  }
+]

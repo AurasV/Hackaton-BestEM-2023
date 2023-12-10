@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 520078,
+    "Product_ID": "84078A",
+    "Description": "SET/4 WHITE RETRO STORAGE CUBES ",
+    "Quantity": 4,
+    "Date": "2010-08-24",
+    "Price": 34.95,
+    "Customer ID": 13452,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 546480,
+    "Product_ID": 22656,
+    "Description": "VINTAGE BLUE KITCHEN CABINET",
+    "Quantity": 1,
+    "Date": "2011-03-14",
+    "Price": 295.0,
+    "Customer ID": 13452,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 547814,
+    "Product_ID": 22656,
+    "Description": "VINTAGE BLUE KITCHEN CABINET",
+    "Quantity": 1,
+    "Date": "2011-03-25",
+    "Price": 295.0,
+    "Customer ID": 13452,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "Invoice": 513195,
+    "Product_ID": 21078,
+    "Description": "SET/20 STRAWBERRY PAPER NAPKINS ",
+    "Quantity": 12,
+    "Date": "2010-06-22",
+    "Price": 0.85,
+    "Customer ID": 14874,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 513195,
+    "Product_ID": 47568,
+    "Description": "ENGLISH ROSE DESIGN PEG BAG",
+    "Quantity": 6,
+    "Date": "2010-06-22",
+    "Price": 2.1,
+    "Customer ID": 14874,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 513195,
+    "Product_ID": 84270,
+    "Description": "ASSTD DESIGN BUBBLE GUM RING",
+    "Quantity": 30,
+    "Date": "2010-06-22",
+    "Price": 0.21,
+    "Customer ID": 14874,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 513195,
+    "Product_ID": 22419,
+    "Description": "LIPSTICK PEN RED",
+    "Quantity": 24,
+    "Date": "2010-06-22",
+    "Price": 0.42,
+    "Customer ID": 14874,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 513195,
+    "Product_ID": 84755,
+    "Description": "COLOUR GLASS T-LIGHT HOLDER HANGING",
+    "Quantity": 64,
+    "Date": "2010-06-22",
+    "Price": 0.65,
+    "Customer ID": 14874,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 513195,
+    "Product_ID": 22089,
+    "Description": "PAPER BUNTING VINTAGE PAISLEY",
+    "Quantity": 12,
+    "Date": "2010-06-22",
+    "Price": 2.95,
+    "Customer ID": 14874,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  }
+]

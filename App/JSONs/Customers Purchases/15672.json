@@ -1,0 +1,35 @@
+[
+  {
+    "Invoice": 491964,
+    "Product_ID": 21477,
+    "Description": "STRING OF 20 ROSE LIGHTS",
+    "Quantity": 1,
+    "Date": "2009-12-14",
+    "Price": 12.75,
+    "Customer ID": 15672,
+    "Country": "United Kingdom",
+    "Category": "Accessories"
+  },
+  {
+    "Invoice": 491964,
+    "Product_ID": 22139,
+    "Description": "RETRO SPOT TEA SET CERAMIC 11 PC ",
+    "Quantity": 3,
+    "Date": "2009-12-14",
+    "Price": 4.95,
+    "Customer ID": 15672,
+    "Country": "United Kingdom",
+    "Category": "Kitchenware"
+  },
+  {
+    "Invoice": 491964,
+    "Product_ID": 21733,
+    "Description": "RED HANGING HEART T-LIGHT HOLDER",
+    "Quantity": 6,
+    "Date": "2009-12-14",
+    "Price": 2.95,
+    "Customer ID": 15672,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  }
+]

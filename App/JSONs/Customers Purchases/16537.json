@@ -1,0 +1,46 @@
+[
+  {
+    "Invoice": 500504,
+    "Product_ID": "84559D",
+    "Description": "3D SHEET OF SEA WORLD STICKERS",
+    "Quantity": 3,
+    "Date": "2010-03-08",
+    "Price": 0.85,
+    "Customer ID": 16537,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 500504,
+    "Product_ID": 35652,
+    "Description": "VINTAGE BEAD CHAISE LONG JEWEL BOX",
+    "Quantity": 16,
+    "Date": "2010-03-08",
+    "Price": 0.5,
+    "Customer ID": 16537,
+    "Country": "United Kingdom",
+    "Category": "Art & Collectibles"
+  },
+  {
+    "Invoice": 500504,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 16,
+    "Date": "2010-03-08",
+    "Price": 0.5,
+    "Customer ID": 16537,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  },
+  {
+    "Invoice": 500504,
+    "Product_ID": "M",
+    "Description": "Manual",
+    "Quantity": 24,
+    "Date": "2010-03-08",
+    "Price": 0.2,
+    "Customer ID": 16537,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]

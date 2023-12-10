@@ -1,0 +1,13 @@
+[
+  {
+    "Invoice": 495747,
+    "Product_ID": "ADJUST",
+    "Description": "Adjustment by john on 26/01/2010 16",
+    "Quantity": 1,
+    "Date": "2010-01-26",
+    "Price": 129.23,
+    "Customer ID": 12555,
+    "Country": "Spain",
+    "Category": "Other"
+  }
+]

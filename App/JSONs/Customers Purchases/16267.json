@@ -1,0 +1,79 @@
+[
+  {
+    "Invoice": 506119,
+    "Product_ID": 22537,
+    "Description": "MAGIC DRAWING SLATE DINOSAUR",
+    "Quantity": 48,
+    "Date": "2010-04-27",
+    "Price": 0.42,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Crafts & Hobbies"
+  },
+  {
+    "Invoice": 506119,
+    "Product_ID": 22433,
+    "Description": "WATERING CAN GREEN DINOSAUR",
+    "Quantity": 24,
+    "Date": "2010-04-27",
+    "Price": 1.95,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 506119,
+    "Product_ID": 21972,
+    "Description": "SET OF 36 DINOSAUR PAPER DOILIES",
+    "Quantity": 36,
+    "Date": "2010-04-27",
+    "Price": 1.45,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 506119,
+    "Product_ID": 21975,
+    "Description": "PACK OF 60 DINOSAUR CAKE CASES",
+    "Quantity": 48,
+    "Date": "2010-04-27",
+    "Price": 0.55,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 506119,
+    "Product_ID": 21251,
+    "Description": "DINOSAUR HEIGHT CHART STICKER SET",
+    "Quantity": 6,
+    "Date": "2010-04-27",
+    "Price": 2.95,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Stationery"
+  },
+  {
+    "Invoice": 506119,
+    "Product_ID": 21059,
+    "Description": "PARTY INVITES DINOSAURS",
+    "Quantity": 12,
+    "Date": "2010-04-27",
+    "Price": 0.85,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Party & Celebration"
+  },
+  {
+    "Invoice": 506119,
+    "Product_ID": 84991,
+    "Description": "60 TEATIME FAIRY CAKE CASES",
+    "Quantity": 24,
+    "Date": "2010-04-27",
+    "Price": 0.55,
+    "Customer ID": 16267,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  }
+]

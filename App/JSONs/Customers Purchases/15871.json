@@ -1,0 +1,57 @@
+[
+  {
+    "Invoice": 524314,
+    "Product_ID": 48188,
+    "Description": "DOORMAT WELCOME PUPPIES",
+    "Quantity": 1,
+    "Date": "2010-09-28",
+    "Price": 7.95,
+    "Customer ID": 15871,
+    "Country": "United Kingdom",
+    "Category": "Home Decor & Ornaments"
+  },
+  {
+    "Invoice": 524314,
+    "Product_ID": 22060,
+    "Description": "LARGE CAKE STAND HANGING HEARTS",
+    "Quantity": 1,
+    "Date": "2010-09-28",
+    "Price": 9.95,
+    "Customer ID": 15871,
+    "Country": "United Kingdom",
+    "Category": "Baking & Cookware"
+  },
+  {
+    "Invoice": 524314,
+    "Product_ID": "35004B",
+    "Description": "SET OF 3 BLACK FLYING DUCKS",
+    "Quantity": 1,
+    "Date": "2010-09-28",
+    "Price": 5.45,
+    "Customer ID": 15871,
+    "Country": "United Kingdom",
+    "Category": "Toys & Games"
+  },
+  {
+    "Invoice": 524314,
+    "Product_ID": 22894,
+    "Description": "TABLECLOTH RED APPLES DESIGN ",
+    "Quantity": 1,
+    "Date": "2010-09-28",
+    "Price": 8.5,
+    "Customer ID": 15871,
+    "Country": "United Kingdom",
+    "Category": "Color Themes"
+  },
+  {
+    "Invoice": 524314,
+    "Product_ID": 22559,
+    "Description": "SEASIDE FLYING DISC",
+    "Quantity": 1,
+    "Date": "2010-09-28",
+    "Price": 1.25,
+    "Customer ID": 15871,
+    "Country": "United Kingdom",
+    "Category": "Other"
+  }
+]
